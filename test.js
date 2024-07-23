@@ -30,7 +30,7 @@ const sdk = new JMFApiSdk(params);
 //Place Order
 // (async () => {
 //     try {
-//         
+        
 //         const placeOrderParams = {
 //             "symbol": "NATIONALUM-EQ",
 //             "excToken": "6364",
@@ -368,6 +368,44 @@ const sdk = new JMFApiSdk(params);
         
 //         const tradeBookResponse = await sdk.tradeBook();
 //         console.log('Trade Book Data Response:', tradeBookResponse);
+
+//     } catch (error) {
+//         console.error('Error:', error);
+//     }
+// })();
+
+
+// Convert Position
+// (async () => {
+//     try {
+        
+//         convertPositionParams = {
+//             "type": "DAY1",
+//             "ordAction": "buy",
+//             "toPrdType": "CNC",
+//             "prdType": "NRML",
+//             "qty": "30",
+//             "exc": "NSE",
+//             "instrument": "STK",
+//             "symbol": "ADANIENT-EQ",
+//             "lotSize": "1",
+//             "excToken": "25"
+//         };
+
+//         const convertPositionResponse = await sdk.convertPosition(convertPositionParams);
+//         console.log('Convert Position Response:', convertPositionResponse);
+
+//     } catch (error) {
+//         console.error('Error:', error);
+//     }
+// })();
+
+// Holding
+// (async () => {
+//     try {
+        
+//         const holdingsResponse = await sdk.holdings();
+//         console.log('Holdings Data Response:', holdingsResponse);
 
 //     } catch (error) {
 //         console.error('Error:', error);

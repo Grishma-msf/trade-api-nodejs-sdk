@@ -14,9 +14,9 @@ module.exports.API = {
 	order_book: '/wrapper-details-service/api/order/v1/order-book',
 
 	trade_book: '/wrapper-details-service/api/order/v1/trade-book',
-	convert_position: '/detailsApi/portfolio/v1/convert-position',
-	position_book: '/wrapper-details-service/api/portfolio/v1/position-book?type=net',
-	holdings: '/detailsApi/portfolio/v1/holdings',
+	convert_position: 'wrapper-order-service/api/portfolio/v1/convert-positions',
+	position_book: '/wrapper-details-service/api/portfolio/v1/position-book',
+	holdings: '/wrapper-details-service/api/portfolio/v1/holdings',
 
 	trade_details: '/wrapper-details-service/api/order/v1/trade-details',
 	brokerage: '/wrapper-details-service/api/trade/v1/brokerage',
